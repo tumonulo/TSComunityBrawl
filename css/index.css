@@ -13,6 +13,10 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+#topBoardButtons{
+    width: 1000px;
+    margin-left: 50px;
+}
 .topBoardButton{
     background: none;
     padding: 10px;
