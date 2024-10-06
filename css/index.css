@@ -2,9 +2,6 @@ body {
     margin: 0;
     padding: 0;
 }
-#topBoardNotFixed{
-    height: 88px;
-}
 
 /* TOPBOARD */
 #topBoard{
@@ -17,6 +14,7 @@ body {
     justify-content: space-around;
 }
 .topBoardButton{
+    background: none;
     padding: 10px;
     font-size: 12px;
 }
