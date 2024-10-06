@@ -2,9 +2,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* TOPBOARD */
 #topBoard{
     position: fixed;
-    background-color: rgb(36, 36, 36);
+    background-color: rgb(24, 28, 30);
     height: 70px;
     display: flex;
     align-items: center;
@@ -16,4 +18,14 @@ body {
 }
 #tsComunityBrawl{
     font-size: 60px;
+}
+
+/* MIDDLEBOARD */
+#middleBoard{
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+}
+
+/* BOTTOMBOARD */
+#bottomBoard{
+    width: 100%; 
 }
