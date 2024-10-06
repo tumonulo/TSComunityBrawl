@@ -3,12 +3,14 @@ body {
     padding: 0;
 }
 #topBoard{
+    position: fixed;
     background-color: rgb(36, 36, 36);
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 70px;
 }
 .topBoardButton{
     padding: 10px;
+    font-size: 30px;
 }
