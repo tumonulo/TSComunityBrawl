@@ -23,8 +23,9 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-.topBoardButton{
+.topBoardButtonsButton{
     color: white;
+    border-color: transparent;
     background-color: transparent;
     padding: 10px;
     font-size: 15px;
