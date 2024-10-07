@@ -14,9 +14,6 @@ body {
     justify-content: center;
 }
 #topBoardButtons{
-    border-style: solid;
-    border-color: blueviolet;
-    border-width: 3px;
     width: 750px;
     margin-left: 50px;
     display: flex;
