@@ -5,6 +5,7 @@ body {
 
 /* TOPBOARD */
 #topBoard{
+    margin-top: 10px;
     position: fixed;
     background-color: rgb(24, 28, 30);
     width: 100%;
