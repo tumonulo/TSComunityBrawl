@@ -40,38 +40,41 @@ body {
     background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
     height: 733px;
+}
+.middleBoard-0\.0{
+    width: auto;
+    height: auto;
     margin-top: 200px;
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
-.middleBoard-0\.0{
+.middleBoard-0\.0\.0{
     width: auto;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.middleBoard-0\.0\.0{
+.middleBoard-0\.0\.0\.0{
     width: auto;
     height: auto;
     color: white;
     font-size: 50px;
 }
-.middleBoard-0\.0\.1{
+.middleBoard-0\.0\.0\.1{
     width: auto;
     height: auto;
     color: white;
     font-size: 21px;
 }
-.middleBoard-0\.0\.2{
+.middleBoard-0\.0\.\.02{
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
-.middleBoard-0\.0\.2-button-0{
+.middleBoard-0\.0\.0\.2-button-0{
     width: 200px;
     height: auto;
     color: white;
@@ -87,13 +90,13 @@ body {
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.2-button-0:hover{
+.middleBoard-0\.0\.0\.2-button-0:hover{
     color: rgb(35, 40, 43);
     background-color: white;
     transition-property: all;
     transition-duration: 0.3s;
     }
-.middleBoard-0\.0\.2-button-1{
+.middleBoard-0\.0\.0\.2-button-1{
     width: 200px;
     height: auto;
     color: white;
@@ -107,13 +110,13 @@ body {
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.2-button-1:hover{
+.middleBoard-0\.0\.0\.2-button-1:hover{
     color: rgb(2, 77, 151);
     background-color: white;
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.1{
+.middleBoard-0\.0\.1{
     width: auto;
     height: 627px;
     margin-left: 120px;
