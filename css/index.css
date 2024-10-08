@@ -46,6 +46,7 @@ body {
     height: auto;
     margin-top: 200px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .middleBoard-0\.0\.0{
