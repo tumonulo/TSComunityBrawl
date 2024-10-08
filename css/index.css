@@ -51,6 +51,7 @@ body {
 .middleBoard-0\.0\.0{
     width: auto;
     height: 400px;
+    margin-right: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -119,7 +120,6 @@ body {
 .middleBoard-0\.0\.1{
     width: auto;
     height: 627px;
-    margin-left: 120px;
 }
 
 .middleBoard-1{
