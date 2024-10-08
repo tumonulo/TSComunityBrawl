@@ -5,7 +5,6 @@ body {
 
 /* TOPBOARD */
 #topBoard{
-    margin-top: 10px;
     position: fixed;
     background-color: rgb(24, 28, 30);
     width: 100%;
@@ -26,7 +25,7 @@ body {
     border-color: transparent;
     background-color: transparent;
     padding: 10px;
-    font-size: 15px;
+    font-size: 17px;
 }
 #tsComunityBrawl{
     font-size: 25px;
@@ -34,6 +33,110 @@ body {
 
 /* MIDDLEBOARD */
 #middleBoard{
+    width: 100%;
+    height: auto;
+}
+.middleBoard-0{
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+    width: 100%;
+    height: 733px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.middleBoard-0\.0{
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.middleBoard-0\.0\.0{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 50px;
+}
+.middleBoard-0\.0\.1{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 21px;
+}
+.middleBoard-0\.0\.2{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.middleBoard-0\.0\.2-button-0{
+    width: 200px;
+    height: auto;
+    color: white;
+    background-color: rgb(2, 77, 151);
+    border-color: white;
+    border-style: solid;
+    border: 2px;
+    border-radius: 10px;
+    margin-left: 3px;
+    margin-right: 15px;
+    padding: 13px;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.middleBoard-0\.0\.2-button-0:hover{
+    color: rgb(35, 40, 43);
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+    }
+.middleBoard-0\.0\.2-button-1{
+    width: 200px;
+    height: auto;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border: 2px;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.middleBoard-0\.0\.2-button-1:hover{
+    color: rgb(2, 77, 151);
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.middleBoard-0\.1{
+    width: auto;
+    height: 627px;
+    margin-left: 120px;
+}
+
+.middleBoard-1{
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+    width: 100%;
+    height: 733px;
+}
+
+.middleBoard-2{
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+    width: 100%;
+    height: 733px;
+}
+
+.middleBoard-3{
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+    width: 100%;
+    height: 733px;
+}
+
+.middleBoard-4{
     background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
     height: 733px;
