@@ -43,6 +43,7 @@ body {
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 .middleBoard-0\.0{
     width: auto;
@@ -84,13 +85,13 @@ body {
     padding: 13px;
     font-size: 18px;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 .middleBoard-0\.0\.2-button-0:hover{
     color: rgb(35, 40, 43);
     background-color: white;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     }
 .middleBoard-0\.0\.2-button-1{
     width: 200px;
@@ -104,13 +105,13 @@ body {
     padding: 13px;
     font-size: 18px;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 .middleBoard-0\.0\.2-button-1:hover{
     color: rgb(2, 77, 151);
     background-color: white;
     transition-property: all;
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
 }
 .middleBoard-0\.1{
     width: auto;
