@@ -47,7 +47,7 @@ body {
     margin-top: 200px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
 }
 .middleBoard-0\.0\.0{
     width: auto;
