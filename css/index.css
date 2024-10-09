@@ -45,19 +45,11 @@ body {
     width: auto;
     height: auto;
     margin-top: 200px;
-    display: flex;
-    flex-direction: row;
-    border-color: brown;
-    border-width: 2px;
-    border-style: solid;
 }
 .middleBoard-0\.0\.0{
     width: auto;
     height: 400px;
     margin-right: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 .middleBoard-0\.0\.0\.0{
     width: auto;
@@ -74,9 +66,6 @@ body {
 .middleBoard-0\.0\.\.02{
     width: auto;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 .middleBoard-0\.0\.0\.2-button-0{
     width: 200px;
