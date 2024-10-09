@@ -57,7 +57,7 @@ body {
     height: 400px;
     margin-right: 120px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
 }
 .middleBoard-0\.0\.0\.0{
@@ -124,7 +124,6 @@ body {
 .middleBoard-0\.0\.1{
     width: auto;
     height: 627px;
-    display: flex;
 }
 
 .middleBoard-1{
