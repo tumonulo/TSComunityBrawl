@@ -48,6 +48,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-color: brown;
+    border-width: 2px;
+    border-style: solid;
 }
 .middleBoard-0\.0\.0{
     width: auto;
