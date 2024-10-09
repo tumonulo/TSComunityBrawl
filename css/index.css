@@ -46,8 +46,7 @@ body {
     height: auto;
     margin-top: 200px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
     border-color: brown;
     border-width: 2px;
     border-style: solid;
@@ -76,7 +75,7 @@ body {
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 .middleBoard-0\.0\.0\.2-button-0{
