@@ -124,6 +124,7 @@ body {
 .middleBoard-0\.0\.1{
     width: auto;
     height: 627px;
+    display: flex;
 }
 
 .middleBoard-1{
