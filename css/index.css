@@ -20,6 +20,9 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+#tsComunityBrawl{
+    font-size: 25px;
+}
 .topBoardButtonsButton{
     color: white;
     border-color: transparent;
@@ -27,9 +30,7 @@ body {
     padding: 10px;
     font-size: 17px;
 }
-#tsComunityBrawl{
-    font-size: 25px;
-}
+
 
 /* MIDDLEBOARD */
 #middleBoard{
@@ -42,12 +43,11 @@ body {
     background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
 }
 #middleBoard-0\.0{
     width: auto;
-    height: 250px;
+    height: 300px;
     margin-right: 120px;
     display: flex;
     flex-direction: column;
@@ -69,8 +69,8 @@ body {
     width: auto;
     height: auto;
     display: flex;
-    align-items: center;
     flex-direction: row;
+    align-items: center;
 }
 #middleBoard-0\.0\.2-button-0{
     width: 200px;
@@ -142,6 +142,7 @@ body {
     background-color: rgb(54, 239, 12);
 }
     
+
 /* BOTTOMBOARD */
 #bottomBoard{
     width: 100%; 
