@@ -26,10 +26,16 @@ body {
     background-color: transparent;
     padding: 10px;
     font-size: 25px;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 #topBoardTsComunityBrawlButton:hover{
     background-color: rgb(41, 48, 50);
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 .topBoardButtonsButton{
     color: white;
@@ -37,10 +43,16 @@ body {
     background-color: transparent;
     padding: 10px;
     font-size: 17px;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
-.topBoardButtonsButton{
+.topBoardButtonsButton:hover{
     background-color: rgb(41, 48, 50);
+    margin-left: 10px;
+    margin-right: 10px;
     cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 
 
