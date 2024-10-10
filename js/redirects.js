@@ -26,7 +26,8 @@ function topBoardSobreNosotrosOnclick() {
 }
 
 function middleBoard0DiscordOnclick() {
-    window.location.href = "https://discord.gg/8nu3ZdDkp7";
+    window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
+
 }
 function middleBoard0ClubesOnclick() {
     window.location.href = "";
