@@ -1,33 +1,33 @@
 function topBoardTsComunityBrawlOnclick() {
     if (window.location.href !== "https://tumonulo.github.io/TSComunityBrawl/") {
-        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+        window.open("https://tumonulo.github.io/TSComunityBrawl/");
     }
 }
 function topBoardInicioOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardDiscordOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardClubesOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardEquipoCompetitivoOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardRedesSocialesOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardSoporteOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 function topBoardSobreNosotrosOnclick() {
-    window.location.href = "";
+    window.open("");
 }
 
 function middleBoard0DiscordOnclick() {
     window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
 }
 function middleBoard0ClubesOnclick() {
-    window.location.href = "";
+    window.open("");
 }
