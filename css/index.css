@@ -36,20 +36,16 @@ body {
     width: 100%;
     height: auto;
 }
-.middleBoard-0{
-    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+#middleBoard-0{
     width: 100%;
     height: 733px;
-}
-.middleBoard-0\.0{
-    width: auto;
-    height: auto;
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     margin-top: 200px;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.middleBoard-0\.0\.0{
+#middleBoard-0\.0{
     width: auto;
     height: 400px;
     margin-right: 120px;
@@ -57,26 +53,26 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
-.middleBoard-0\.0\.0\.0{
+#middleBoard-0\.0\.0{
     width: auto;
     height: auto;
     color: white;
     font-size: 50px;
 }
-.middleBoard-0\.0\.0\.1{
+#middleBoard-0\.0\.1{
     width: auto;
     height: auto;
     color: white;
     font-size: 21px;
 }
-.middleBoard-0\.0\.\.02{
+#middleBoard-0\.0\.2{/*dsda+*/
     width: auto;
     height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
 }
-.middleBoard-0\.0\.0\.2-button-0{
+#middleBoard-0\.0\.2-button-0{
     width: 200px;
     height: auto;
     color: white;
@@ -92,13 +88,13 @@ body {
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.0\.2-button-0:hover{
+#middleBoard-0\.0\.2-button-0:hover{
     color: rgb(35, 40, 43);
     background-color: white;
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.0\.2-button-1{
+#middleBoard-0\.0\.2-button-1{
     width: 200px;
     height: auto;
     color: white;
@@ -112,39 +108,38 @@ body {
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.0\.2-button-1:hover{
+#middleBoard-0\.0\.2-button-1:hover{
     color: rgb(2, 77, 151);
     background-color: white;
     transition-property: all;
     transition-duration: 0.3s;
 }
-.middleBoard-0\.0\.1{
+#middleBoard-0\.1{
     width: auto;
     height: 627px;
 }
 
-.middleBoard-1{
-    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+#middleBoard-1{
     width: 100%;
     height: 733px;
+    background-color: rgb(239, 141, 12);
 }
     
-.middleBoard-2{
-    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+#middleBoard-2{
     width: 100%;
     height: 733px;
+    background-color: rgb(72, 12, 239);
+}  
+#middleBoard-3{
+    width: 100%;
+    height: 733px;
+    background-color: rgb(239, 12, 12);
 }
     
-.middleBoard-3{
-    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
+#middleBoard-4{
     width: 100%;
     height: 733px;
-}
-    
-.middleBoard-4{
-    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
-    width: 100%;
-    height: 733px;
+    background-color: rgb(54, 239, 12);
 }
     
 /* BOTTOMBOARD */
