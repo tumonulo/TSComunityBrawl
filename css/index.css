@@ -15,7 +15,7 @@ body {
 }
 #topBoardButtons{
     width: 750px;
-    margin-left: 30px;
+    margin-left: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -48,7 +48,7 @@ body {
 }
 #middleBoard-0\.0{
     width: auto;
-    height: 265px;
+    height: 230px;
     margin-right: 120px;
     display: flex;
     flex-direction: column;
