@@ -31,8 +31,6 @@ body {
 }
 #topBoardTsComunityBrawlButton:hover{
     color: rgb(0, 128, 255);
-    margin-left: 10px;
-    margin-right: 10px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.3s;
