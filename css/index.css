@@ -36,7 +36,7 @@ body {
     width: 100%;
     height: auto;
 }
-.middleBoard0{
+.middleBoard-0{
     background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
     height: 733px;
@@ -48,9 +48,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-color: brown;
-    border-width: 2px;
-    border-style: solid;
 }
 .middleBoard-0\.0\.0{
     width: auto;
@@ -72,12 +69,12 @@ body {
     color: white;
     font-size: 21px;
 }
-.middleBoard-0\.0\.0\.2{
+.middleBoard-0\.0\.\.02{
     width: auto;
     height: auto;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    flex-direction: row;
 }
 .middleBoard-0\.0\.0\.2-button-0{
     width: 200px;
@@ -100,7 +97,7 @@ body {
     background-color: white;
     transition-property: all;
     transition-duration: 0.3s;
-    }
+}
 .middleBoard-0\.0\.0\.2-button-1{
     width: 200px;
     height: auto;
@@ -127,30 +124,30 @@ body {
 }
 
 .middleBoard-1{
-    background-color: chocolate;
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
-    height: 500px;
+    height: 733px;
 }
-
+    
 .middleBoard-2{
-    background-color: rgb(60, 210, 30);
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
-    height: 500px;
+    height: 733px;
 }
-
+    
 .middleBoard-3{
-    background-color: rgb(204, 32, 127);
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
-    height: 500px;
+    height: 733px;
 }
-
+    
 .middleBoard-4{
-    background-color: rgb(30, 54, 210);
+    background: linear-gradient(rgb(24, 28, 30), rgb(49, 54, 59));
     width: 100%;
-    height: 500px;
+    height: 733px;
 }
-
+    
 /* BOTTOMBOARD */
 #bottomBoard{
     width: 100%; 
-}
+    }
