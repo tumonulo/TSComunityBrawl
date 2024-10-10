@@ -30,8 +30,7 @@ body {
     transition-duration: 0.3s;
 }
 #topBoardTsComunityBrawlButton:hover{
-    color: rgb(2, 77, 151);
-    background-color: rgb(41, 48, 50);
+    color: rgb(0, 128, 255);
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -48,8 +47,7 @@ body {
     transition-duration: 0.3s;
 }
 .topBoardButtonsButton:hover{
-    color: rgb(2, 77, 151);
-    background-color: rgb(41, 48, 50);
+    color: rgb(0, 128, 255);
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
