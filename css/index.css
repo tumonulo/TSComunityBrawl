@@ -116,8 +116,8 @@ body {
     transition-duration: 0.3s;
 }
 #middleBoard-0\.1{
-    width: auto;
-    height: 627px;
+    width: 350px;
+    height: auto;
 }
 
 #middleBoard-1{
