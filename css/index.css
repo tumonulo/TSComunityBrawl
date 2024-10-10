@@ -48,8 +48,8 @@ body {
 }
 #middleBoard-0\.0{
     width: auto;
-    height: 230px;
-    margin-right: 120px;
+    height: 300px;
+    margin-right: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -58,7 +58,7 @@ body {
     width: auto;
     height: auto;
     color: white;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 50px;
 }
 #middleBoard-0\.0\.1{
@@ -119,6 +119,7 @@ body {
 #middleBoard-0\.1{
     width: 350px;
     height: auto;
+    margin-top: 50px;
 }
 
 #middleBoard-1{
