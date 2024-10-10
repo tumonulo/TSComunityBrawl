@@ -43,10 +43,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 #middleBoard-0\.0{
     width: auto;
-    height: 200px;
+    height: 250px;
     margin-right: 120px;
     display: flex;
     flex-direction: column;
