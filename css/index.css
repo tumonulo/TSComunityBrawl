@@ -20,8 +20,16 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-#tsComunityBrawl{
+#topBoardTsComunityBrawlButton{
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 10px;
     font-size: 25px;
+}
+#topBoardTsComunityBrawlButton:hover{
+    background-color: rgb(41, 48, 50);
+    cursor: pointer;
 }
 .topBoardButtonsButton{
     color: white;
@@ -29,6 +37,10 @@ body {
     background-color: transparent;
     padding: 10px;
     font-size: 17px;
+}
+.topBoardButtonsButton{
+    background-color: rgb(41, 48, 50);
+    cursor: pointer;
 }
 
 
