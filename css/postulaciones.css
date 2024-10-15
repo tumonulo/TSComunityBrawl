@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+/* TOPBOARD */
+#topBoard {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(29, 33, 35);
+    width: 100%;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#topBoardButtons {
+    width: 750px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#topBoardTsComunityBrawlButton {
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+#topBoardTsComunityBrawlButton:hover {
+    color: rgb(0, 128, 255);
+    cursor: pointer;
+}
+.topBoardButtonsButton {
+    color: white;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+.topBoardButtonsButton:hover {
+    color: rgb(0, 128, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* MIDDLEBOARD */
+#middleBoard {
+    width: 100%;
+    height: calc(100vh - 88px);
+    padding-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+#middleBoard-0 {
+    width: 640px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#middleBoard-1 {
+    width: 100%;
+    height: calc(100vh - 388px);
+    border: none;
+}
