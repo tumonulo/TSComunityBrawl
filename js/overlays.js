@@ -12,31 +12,41 @@ const middleBoardInicioOverlay = document.getElementById("middleBoardInicioOverl
      const randomNumber = Math.floor(Math.random() * 4);
     if (randomNumber === 0) {
         (async () => {
-            const requestDiscordMembers = fetch("", => {
-                headers {
-
-                } BODY: String.json
-            })
-
-
-
-
-            const middleBoardInicioOverlayValue0 = `Discord con x miembros`;
+            const requestDiscordMembers = await fetch("https://discord.com/api/v10/guilds/1093864130030612521?with_counts=true", {
+              method: "GET",
+              headers: {
+                "Authorization": `Bot ${tokenDiscordBot}`,
+                "Content-Type": "application/json"
+              }
+            });    
+            const responseDiscordMembers = await requestDiscordMembers.json();
+            const middleBoardInicioOverlayValue0 = `Discord con ${responseDiscordMembers.approximate_member_count} miembros`;
             const middleBoardInicioOverlayValue0Format = /^Discord con \d+ miembros$/;
             if (middleBoardInicioOverlayValue0Format.test(middleBoardInicioOverlay.innerText)) {
                 middleBoardInicioOverlaySetValue();
             } else {
                 middleBoardInicioOverlay.innerText = middleBoardInicioOverlayValue0;
             }
-        })()
+          })();
     } else if (randomNumber === 1) {
-        const middleBoardInicioOverlayValue1 = `Discord con x miembros activos`;
-        const middleBoardInicioOverlayValue1Format = /^Discord con \d+ miembros activos$/;
-        if (middleBoardInicioOverlayValue1Format.test(middleBoardInicioOverlay.innerText)) {
-            middleBoardInicioOverlaySetValue();
-        } else {
-            middleBoardInicioOverlay.innerText = middleBoardInicioOverlayValue1;
-        }
+        (async () => {
+            const requestDiscordMembersOnline = await fetch("https://discord.com/api/v10/guilds/1093864130030612521?with_counts=true", {
+                method: "GET",
+                headers: {
+                    "Authorization": `Bot ${tokenDiscordBot}`,
+                    "Content-Type": "application/json"
+                }
+            });
+            const responseDiscordMembersOnline = await requestDiscordMembersOnline.json();
+            const middleBoardInicioOverlayValue1 = `Discord con ${responseDiscordMembersOnline.approximate_presence_count} miembros activos`;
+            const middleBoardInicioOverlayValue1Format = /^Discord con \d+ miembros activos$/;
+            if (middleBoardInicioOverlayValue1Format.test(middleBoardInicioOverlay.innerText)) {
+                middleBoardInicioOverlaySetValue();
+            } else {
+                middleBoardInicioOverlay.innerText = middleBoardInicioOverlayValue1;
+            }
+        })();
+
     } else if (randomNumber === 2) {
         const middleBoardInicioOverlayValue2 = `${ID.length} clubes de Brawl Stars`;
         const middleBoardInicioOverlayValue2Format = /^\d+clubes de Brawl Stars$/;
