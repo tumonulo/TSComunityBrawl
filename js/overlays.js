@@ -22,7 +22,7 @@ const middleBoardInicioOverlay = document.getElementById("middleBoardInicioOverl
         } else {
             middleBoardInicioOverlay.innerText = middleBoardInicioOverlayValue1;
         }
-    } else if (randomNumber === 2) {// ZERO GAy
+    } else if (randomNumber === 2) {
         const middleBoardInicioOverlayValue2 = `${ID.length} clubes de Brawl Stars`;
         if (middleBoardInicioOverlayValue2 === middleBoardInicioOverlay.innerText) {
             middleBoardInicioOverlaySetValue();
