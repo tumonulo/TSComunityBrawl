@@ -46,7 +46,6 @@ const middleBoardInicioOverlay = document.getElementById("middleBoardInicioOverl
                 middleBoardInicioOverlay.innerText = middleBoardInicioOverlayValue1;
             }
         })();
-
     } else if (randomNumber === 2) {
         const middleBoardInicioOverlayValue2 = `${ID.length} clubes de Brawl Stars`;
         const middleBoardInicioOverlayValue2Format = /^\d+clubes de Brawl Stars$/;
