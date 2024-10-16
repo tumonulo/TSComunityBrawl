@@ -210,7 +210,7 @@ body {
     justify-content: space-around;
 }
 #middleBoardDiscord-0{
-    width: auto;
+    width: 500px;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -225,7 +225,7 @@ body {
     font-size: 37px;
 }
 #middleBoardDiscord-2{
-    width: auto;
+    width: 500px;
     height: 200px;
     display: flex;
     flex-direction: column;
