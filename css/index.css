@@ -3,8 +3,10 @@ body {
     padding: 0;
 }
 .title{
-    color: linear-gradient(120deg, rgb(229, 158, 255), rgb(0, 153, 255));
-    /*ANADIR FONT*/
+    background: linear-gradient(120deg, rgb(229, 158, 255), rgb(0, 153, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 text{
         /*ANADIR FONT*/
