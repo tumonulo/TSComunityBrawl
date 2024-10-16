@@ -221,6 +221,9 @@ body {
     border-style: solid;
     border-color: blueviolet;
 }
+#middleBoardDiscord-0\.0{
+    font-size: 37px;
+}
 #middleBoardDiscord-2{
     width: auto;
     height: 200px;
@@ -232,6 +235,9 @@ body {
     border-width: 2px;
     border-style: solid;
     border-color: blueviolet;
+}
+#middleBoardDiscord-2\.0{
+    font-size: 37px;
 }
 
 
