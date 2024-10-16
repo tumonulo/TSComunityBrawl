@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
+.titles{
+    color: linear-gradient(120deg, rgb(229, 158, 255), rgb(0, 153, 255));
+}
 @keyframes middleBoardInicioOverlayAnimation {
     0% {
         font-size: 25px;
