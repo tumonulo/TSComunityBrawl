@@ -6,9 +6,13 @@ window.addEventListener("load", () => {
 });
 
 async function middleBoardDiscordStatsSetValue() {
-    Promise.all([
-
-    ]).then(() => {
-        console.log("bhnkml,");
-    })
-}
+    const requestDiscordStats = await fetch("https://discord.com/api/v10/guilds/1093864130030612521?with_counts=true", {
+        method: "GET",
+        headers: {
+          "Authorization": `Bot ${tokenDiscordBot}`,
+          "Content-Type":"application/json"
+        }
+      });    
+      const responseDiscordStats = await resquestDiscordStats.json();
+      //pasar-al-html
+    }

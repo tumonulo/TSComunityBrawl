@@ -7,8 +7,10 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    /*ANADIR FONT*/
 }
 text{
+    color: white;
     /*ANADIR FONT*/
 }
 @keyframes middleBoardInicioOverlayAnimation {
