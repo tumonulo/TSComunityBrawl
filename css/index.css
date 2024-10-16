@@ -2,8 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
-.titles{
+.title{
     color: linear-gradient(120deg, rgb(229, 158, 255), rgb(0, 153, 255));
+    /*ANADIR FONT*/
+}
+text{
+        /*ANADIR FONT*/
 }
 @keyframes middleBoardInicioOverlayAnimation {
     0% {
