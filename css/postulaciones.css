@@ -53,6 +53,7 @@ body {
 #middleBoard {
     width: 100%;
     height: calc(100vh - 88px);
+    background: linear-gradient(rgb(240, 190, 184), rgb(244, 235, 234));
     padding-top: 88px;
     display: flex;
     flex-direction: column;
