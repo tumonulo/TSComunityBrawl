@@ -9,7 +9,7 @@ body {
     color: transparent;
     /*ANADIR FONT*/
 }
-text{
+.text{
     color: white;
     font-size: 20px;
     /*ANADIR FONT*/
@@ -167,7 +167,6 @@ text{
 #middleBoardInicio-0\.2-button-0:hover{
     color: rgb(35, 40, 43);
     background-color: white;
-    padding: 15px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.3s;
@@ -189,7 +188,6 @@ text{
 #middleBoardInicio-0\.2-button-1:hover{
     color: rgb(2, 77, 151);
     background-color: white;
-    padding: 15px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.3s;
