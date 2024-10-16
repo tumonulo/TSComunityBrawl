@@ -108,6 +108,9 @@ text{
     width: 100%;
     height: auto;
 }
+
+
+/*MIDDLEBOARDINICIO*/
 #middleBoardInicio{
     width: 100%;
     height: 647px;
@@ -219,28 +222,53 @@ text{
     border-style: solid;
     border-color: blueviolet;
 }
-    
+#middleBoardDiscord-2{
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+
+/*MIDDLEBOARDCLUBES*/
 #middleBoardClubes{
     width: 100%;
     height: 300px;
     background-color: rgb(67, 75, 81);
 }  
+
+
+/*MIDDLEBOARDEQUIPOCOMPETITIVO*/
 #middleBoardEquipoCompetitivo{
     width: 100%;
     height: 300px;
     background-color: rgb(62, 65, 69);
 }
-    
+   
+
+/*MIDDLEBOARDREDESSOCIALES*/
 #middleBoardRedesSociales{
     width: 100%;
     height: 300px;
     background-color: rgb(24, 28, 30);
 }
+
+
+/*MIDDLEBOARDSOPORTE*/
 #middleBoardSoporte{
     width: 100%;
     height: 300px;
     background-color: rgb(67, 75, 81);
 }
+
+
+/*MIDDLEBOARDSOBRENOSOTROS*/
 #middleBoardSobreNosotros{
     width: 100%;
     height: 300px;
