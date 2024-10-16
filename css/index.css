@@ -211,7 +211,7 @@ body {
 }
 #middleBoardDiscord-0{
     width: 500px;
-    height: 200px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,7 +226,7 @@ body {
 }
 #middleBoardDiscord-2{
     width: 500px;
-    height: 200px;
+    height: 270px;
     display: flex;
     flex-direction: column;
     align-items: center;
