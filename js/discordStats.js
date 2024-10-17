@@ -14,5 +14,5 @@ async function middleBoardDiscordStatsSetValue() {
         }
       });    
       const responseDiscordStats = await resquestDiscordStats.json();
-      //pasar-al-html
+      //pasar-al-html y ponerlo con k y .
     }
