@@ -5,7 +5,7 @@ body {
 }
 
 /* TOPBOARD */
-#topBoard {
+#topBoard{
     position: fixed;
     z-index: 1;
     background-color: rgb(29, 33, 35);
@@ -15,14 +15,14 @@ body {
     align-items: center;
     justify-content: center;
 }
-#topBoardButtons {
+#topBoardButtons{
     width: 750px;
     margin-left: 25px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-#topBoardTsComunityBrawlButton {
+#topBoardTsComunityBrawlButton{
     color: white;
     border-color: transparent;
     background-color: transparent;
@@ -30,11 +30,11 @@ body {
     font-size: 25px;
     transition: all 0.3s ease;
 }
-#topBoardTsComunityBrawlButton:hover {
+#topBoardTsComunityBrawlButton:hover{
     color: rgb(0, 128, 255);
     cursor: pointer;
 }
-.topBoardButtonsButton {
+.topBoardButtonsButton{
     color: white;
     border-color: transparent;
     background-color: transparent;
@@ -42,7 +42,7 @@ body {
     font-size: 17px;
     transition: all 0.3s ease;
 }
-.topBoardButtonsButton:hover {
+.topBoardButtonsButton:hover{
     color: rgb(0, 128, 255);
     margin-left: 10px;
     margin-right: 10px;
@@ -50,23 +50,16 @@ body {
 }
 
 /* MIDDLEBOARD */
-#middleBoard {
+#middleBoard{
     width: 100%;
     height: calc(100vh - 88px);
     background: linear-gradient(rgb(240, 190, 184), rgb(244, 235, 234));
-    padding-top: 88px;
+    margin-top: 88px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: auto;
 }
-#middleBoard-0 {
-    width: 640px;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-#middleBoard-1 {
+#middleBoard-1{
     width: 100%;
     height: calc(100vh - 388px);
     border: none;
