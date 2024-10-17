@@ -2,10 +2,10 @@ require('dotenv'); //REQUIRE ES SOLO DE NODE.JS ASI QUE TENGO Q MIRAR COMO HACER
 const tokenDiscordBot = process.env.TOKENDISCORDBOT;
 
 window.addEventListener("load", () => {
-    middleBoardDiscordStatsSetValue();
+    middleBoardDiscordStatsCalculate();
 });
 
-async function middleBoardDiscordStatsSetValue() {
+async function middleBoardDiscordStatsCalculate() {
     const requestDiscordStats = await fetch("https://discord.com/api/v10/guilds/1093864130030612521?with_counts=true", {
         method: "GET",
         headers: {
@@ -14,5 +14,14 @@ async function middleBoardDiscordStatsSetValue() {
         }
       });    
       const responseDiscordStats = await resquestDiscordStats.json();
-      //pasar-al-html y ponerlo con k y .
+      console.log(responseDiscordStats.approximate_member_count);
+      middleBoardDiscordStatsSetValue(`members${responseDiscordStats.approximate_member_count}`);
+      middleBoardDiscordStatsSetValue(`membersCountOnline${responseDiscordStats.approximate_member_count}`);
     }
+
+function middleBoardDiscordStatsSetValue(number) {
+  if (number.startsWith("membersCount")) {
+    const middleBoardDiscorMembersCountContainer = document.getElementById("middleBoardDiscord-1.0.0");
+  } else if (number.startsWith("membersCountOnline"))
+    const middleBoardDiscorMembersCountOnlineContainer = document.getElementById("middleBoardDiscord-1.1.0");
+}
