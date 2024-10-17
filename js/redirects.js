@@ -1,3 +1,4 @@
+//TOPBOARD
 function topBoardTsComunityBrawlOnclick() {
     if (window.location.href !== "https://tumonulo.github.io/TSComunityBrawl/") {
         window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
@@ -7,7 +8,6 @@ function topBoardInicioOnclick() {
     const middleBoardInicio = document.getElementById('middleBoardInicio');
     middleBoardInicio.scrollIntoView({ behavior: 'smooth' });
 }
-
 function topBoardDiscordOnclick() {
     const middleBoardDiscord = document.getElementById('middleBoardDiscord');
     const middleBoardDiscordPosition = middleBoardDiscord.getBoundingClientRect().top;
@@ -63,9 +63,20 @@ function topBoardSobreNosotrosOnclick() {
     });
 }
 
+
+//MIDDLEBOARDINICIO
 function middleBoardInicioDiscordOnclick() {
     window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
 }
 function middleBoardInicioClubesOnclick() {
 
+}
+
+
+//MIDDLEBOARDCLUBES
+function middleBoardDiscordDiscordOnclick() {
+    window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
+}
+function middleBoardDiscordPostulacionesOnclick() {
+    window.location.href = "./Postulaciones"
 }

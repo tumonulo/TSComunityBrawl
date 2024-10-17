@@ -254,36 +254,18 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+.middleBoardDiscord-1-mainContainer{
+    width: 180px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 .middleBoardDiscord-1-separatingLine{
     width: 2px;
-    height: 50px;
+    height: 150px;
     background: linear-gradient(20deg, rgb(229, 158, 255), rgb(0, 153, 255));
-}
-#middleBoardDiscord-1\.0{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-#middleBoardDiscord-1\.0\.1{
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-#middleBoardDiscord-1\.1{
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-#middleBoardDiscord-1\.1\.1{
-    width: auto;
-    height: auto;
-    text-align: center;
 }
 #middleBoardDiscord-2{
     width: 500px;
