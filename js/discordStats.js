@@ -22,8 +22,11 @@ async function middleBoardDiscordStatsCalculate() {
 function middleBoardDiscordStatsSetValue(number) {
   if (number.startsWith("membersCount")) {
     const middleBoardDiscorMembersCountContainer = document.getElementById("middleBoardDiscord-1.0.0");
+    const middleBoardDiscorMembersCountContainerValue = number.replace('members', '').replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    middleBoardDiscorMembersCountContainer.innerText = middleBoardDiscorMembersCountContainerValue;
   } else if (number.startsWith("membersCountOnline")) {
     const middleBoardDiscorMembersCountOnlineContainer = document.getElementById("middleBoardDiscord-1.1.0");
-
+    const middleBoardDiscorMembersCountOnlineContainerValue = number.replace('membersCountOnline', '').replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    middleBoardDiscorMembersCountOnlineContainer.innerText = middleBoardDiscorMembersCountOnlineContainerValue;
   }
 }
