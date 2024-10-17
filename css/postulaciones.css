@@ -52,15 +52,13 @@ body {
 /* MIDDLEBOARD */
 #middleBoard{
     width: 100%;
-    height: calc(100vh - 88px);
+    height: 647px;
     background: linear-gradient(rgb(240, 190, 184), rgb(244, 235, 234));
-    margin-top: 88px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #middleBoard-1{
     width: 100%;
-    height: calc(100vh - 388px);
-    border: none;
+    height: auto;
 }
