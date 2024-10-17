@@ -228,7 +228,7 @@ body {
 #middleBoardDiscord-0\.2{
     width: 200px;
     height: auto;
-    color: transparent;
+    color: rgb(2, 77, 151);
     background-color: white;
     border: 2px;
     border-style: solid;
@@ -252,6 +252,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+#middleBoardDiscord-1-separatingLine{
+    width: 2px;
+    height: 50px;
+    background: linear-gradient(20deg, rgb(229, 158, 255), rgb(0, 153, 255));
 }
 #middleBoardDiscord-1\.0{
     width: auto;
@@ -281,7 +286,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
     border-width: 2px;
     border-style: solid;
     border-color: blueviolet;
@@ -292,7 +296,7 @@ body {
 #middleBoardDiscord-2\.2{
     width: 200px;
     height: auto;
-    color: transparent;
+    color: rgb(2, 77, 151);
     background-color: white;
     border: 2px;
     border-style: solid;
