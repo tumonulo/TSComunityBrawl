@@ -1,7 +1,7 @@
 //TOPBOARD
 function topBoardTsComunityBrawlOnclick() {
-    if (window.location.href !== "https://tumonulo.github.io/TSComunityBrawl/") {
-        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    if (window.location.href !== "./index.html") {
+        window.location.href = "./index.html";
     }
 }
 function topBoardInicioOnclick() {
@@ -78,5 +78,5 @@ function middleBoardDiscordDiscordOnclick() {
     window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
 }
 function middleBoardDiscordPostulacionesOnclick() {
-    window.location.href = "./Postulaciones"
+    window.location.href = "./Postulaciones.html"
 }
