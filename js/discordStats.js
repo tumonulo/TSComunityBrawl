@@ -22,6 +22,8 @@ async function middleBoardDiscordStatsCalculate() {
 function middleBoardDiscordStatsSetValue(number) {
   if (number.startsWith("membersCount")) {
     const middleBoardDiscorMembersCountContainer = document.getElementById("middleBoardDiscord-1.0.0");
-  } else if (number.startsWith("membersCountOnline"))
+  } else if (number.startsWith("membersCountOnline")) {
     const middleBoardDiscorMembersCountOnlineContainer = document.getElementById("middleBoardDiscord-1.1.0");
+
+  }
 }
