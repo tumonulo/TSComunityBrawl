@@ -225,6 +225,26 @@ body {
 #middleBoardDiscord-0\.0{
     font-size: 40px;
 }
+#middleBoardDiscord-0\.2{
+    width: 200px;
+    height: auto;
+    color: transparent;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+#middleBoardDiscord-0\.2:hover{
+    width: 230px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
 #middleBoardDiscord-2{
     width: 500px;
     height: 270px;
@@ -239,6 +259,26 @@ body {
 }
 #middleBoardDiscord-2\.0{
     font-size: 40px;
+}
+#middleBoardDiscord-2\.2{
+    width: 200px;
+    height: auto;
+    color: transparent;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+#middleBoardDiscord-2\.2:hover{
+    width: 230px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 
 
