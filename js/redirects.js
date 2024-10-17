@@ -11,7 +11,7 @@ function topBoardInicioOnclick() {
 function topBoardDiscordOnclick() {
     const middleBoardDiscord = document.getElementById('middleBoardDiscord');
     const middleBoardDiscordPosition = middleBoardDiscord.getBoundingClientRect().top;
-    const middleBoardDiscordPositionToScroll = window.scrollY + middleBoardDiscordPosition - 88;
+    const middleBoardDiscordPositionToScroll = window.scrollY + middleBoardDiscordPosition - 150;
     window.scrollTo({
         top: middleBoardDiscordPositionToScroll,
         behavior: 'smooth'
