@@ -35,6 +35,15 @@ function topBoardEquipoCompetitivoOnclick() {
         behavior: 'smooth'
     });
 }
+function topBoardValoracionesOnclick() {
+    const middleBoardValoraciones = document.getElementById('middleBoardValoraciones');
+    const middleBoardValoracionesPosition = middleBoardValoraciones.getBoundingClientRect().top;
+    const middleBoardValoracionesPositionToScroll = window.scrollY + middleBoardValoracionesPosition - 88;
+    window.scrollTo({
+        top: middleBoardValoracionesPositionToScroll,
+        behavior: 'smooth'
+    });
+}
 function topBoardRedesSocialesOnclick() {
     const middleBoardRedesSociales = document.getElementById('middleBoardRedesSociales');
     const middleBoardRedesSocialesPosition = middleBoardRedesSociales.getBoundingClientRect().top;

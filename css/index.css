@@ -328,6 +328,14 @@ body {
 }
    
 
+/*MIDDLEBOARDVALORACIONES*/
+#middleBoardValoraciones{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(24, 28, 30);
+}
+
+
 /*MIDDLEBOARDREDESSOCIALES*/
 #middleBoardRedesSociales{
     width: 100%;
