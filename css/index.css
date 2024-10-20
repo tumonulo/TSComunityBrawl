@@ -211,8 +211,8 @@ body {
     justify-content: space-around;
 }
 #middleBoardDiscord-0{
-    width: 500px;
-    height: 270px; 
+    width: 650px;
+    height: 300px; 
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -276,8 +276,8 @@ body {
     background: linear-gradient(20deg, rgb(229, 158, 255), rgb(0, 153, 255));
 }
 #middleBoardDiscord-2{
-    width: 500px;
-    height: 270px;
+    width: 650px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
