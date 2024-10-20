@@ -15,6 +15,26 @@ body {
     text-align: center;
     /*ANADIR FONT*/
 }
+.button{
+    width: 200px;
+    height: auto;
+    color: rgb(2, 77, 151);
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 13px;
+    font-size: 18px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.button:hover{
+    width: 230px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
 @keyframes middleBoardInicioOverlayAnimation {
     0% {
         font-size: 25px;
@@ -226,26 +246,6 @@ body {
 #middleBoardDiscord-0\.0{
     font-size: 40px;
 }
-#middleBoardDiscord-0\.2{
-    width: 200px;
-    height: auto;
-    color: rgb(2, 77, 151);
-    background-color: white;
-    border: 2px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    padding: 13px;
-    font-size: 18px;
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-#middleBoardDiscord-0\.2:hover{
-    width: 230px;
-    cursor: pointer;
-    transition-property: all;
-    transition-duration: 0.3s;
-}
 #middleBoardDiscord-1{
     width: 1000px;
     height: 270px;
@@ -289,26 +289,6 @@ body {
 }
 #middleBoardDiscord-2\.0{
     font-size: 40px;
-}
-#middleBoardDiscord-2\.2{
-    width: 200px;
-    height: auto;
-    color: rgb(2, 77, 151);
-    background-color: white;
-    border: 2px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    padding: 13px;
-    font-size: 18px;
-    transition-property: all;
-    transition-duration: 0.3s;
-}
-#middleBoardDiscord-2\.2:hover{
-    width: 230px;
-    cursor: pointer;
-    transition-property: all;
-    transition-duration: 0.3s;
 }
 
 
