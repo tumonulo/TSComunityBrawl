@@ -35,6 +35,12 @@ body {
     transition-property: all;
     transition-duration: 0.3s;
 }
+.link{
+    
+}
+.link:hover{
+    cursor: pointer;
+}
 @keyframes middleBoardInicioOverlayAnimation {
     0% {
         font-size: 25px;
