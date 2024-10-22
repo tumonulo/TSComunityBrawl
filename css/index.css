@@ -36,9 +36,12 @@ body {
     transition-duration: 0.3s;
 }
 .link{
-    
+   color: rgba(153, 195, 255);
+   text-decoration: none;
+   /*AÑADIR FONT*/
 }
 .link:hover{
+    text-decoration: underline;
     cursor: pointer;
 }
 @keyframes middleBoardInicioOverlayAnimation {
