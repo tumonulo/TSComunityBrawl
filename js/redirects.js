@@ -6,7 +6,7 @@ function topBoardTsComunityBrawlOnclick() {
     }
 }
 function topBoardInicioOnclick() {
-    const middleBoardInicio = document.getElementById('middleBoardInicio');
+    const middleBoardInicio = window.getElementById('middleBoardInicio');
     middleBoardInicio.scrollIntoView({ behavior: 'smooth' });
 }
 function topBoardDiscordOnclick() {
