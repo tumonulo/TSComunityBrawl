@@ -1,5 +1,6 @@
 //TOPBOARD
 function topBoardTsComunityBrawlOnclick() {
+    window.location.href = "https://excalidraw.com/";
     if (window.location.href !== "./index.html") {
         window.location.href = "./index.html";
     }
