@@ -82,10 +82,16 @@ function middleBoardInicioClubesOnclick() {
 }
 
 
-//MIDDLEBOARDCLUBES
+//MIDDLEBOARDDISCORD
 function middleBoardDiscordDiscordOnclick() {
     window.open("https://discord.gg/8nu3ZdDkp7", "_blank");
 }
 function middleBoardDiscordPostulacionesOnclick() {
     window.location.href = "./Postulaciones.html"
+}
+
+
+//MIDDLEBOARDCLUBES
+function middleBoardClubesVerClubesOnclick() {
+    window.location.href = "./Clubes.html";
 }
