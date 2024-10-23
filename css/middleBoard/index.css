@@ -26,6 +26,7 @@ body {
     border-radius: 10px;
     padding: 13px;
     font-size: 18px;
+    text-align: center;
     transition-property: all;
     transition-duration: 0.3s;
 }
@@ -227,7 +228,7 @@ body {
     height: 250px;
     display: flex;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -242,7 +243,16 @@ body {
     width: 100%;
     height: 300px;
     background-color: rgb(67, 75, 81);
-}  
+}
+#middleBoardClubes-0{
+    width: 650px;
+    height: 300px; 
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 /*MIDDLEBOARDEQUIPOCOMPETITIVO*/
