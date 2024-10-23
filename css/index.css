@@ -247,10 +247,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    border-width: 2px;
-    border-style: solid;
-    border-color: magenta;
 }
 #middleBoardDiscord-0\.0{
     font-size: 40px;
@@ -263,10 +259,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
-    border-width: 2px;
-    border-style: solid;
-    border-color: magenta;
 }
 .middleBoardDiscord-1-mainContainer{
     width: 180px;
@@ -290,10 +282,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    border-width: 2px;
-    border-style: solid;
-    border-color: magenta;
 }
 #middleBoardDiscord-2\.0{
     font-size: 40px;
