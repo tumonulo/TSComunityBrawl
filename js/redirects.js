@@ -1,3 +1,24 @@
+// Escuchar mensajes del iframe
+window.addEventListener('message', function(event) {
+    if (event.origin === window.location.origin) { // Verificar el origen
+        switch (event.data) {
+            case 'communityBrawl':
+                topBoardTsComunityBrawlOnclick();
+                break;
+            case 'inicio':
+                topBoardInicioOnclick();
+                break;
+            case 'discord':
+                topBoardDiscordOnclick();
+                break;
+            // Agrega más casos según sea necesario
+        }
+    }
+});
+
+
+
+
 //TOPBOARD
 function topBoardTsComunityBrawlOnclick() {
     window.location.href = "https://excalidraw.com/";
