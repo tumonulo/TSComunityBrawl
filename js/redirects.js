@@ -25,8 +25,8 @@ window.addEventListener("message", event => {
 
 //TOPBOARD
 function topBoardTsComunityBrawlOnclick() {
-    if (window.location.href != "./index.html") {
-        window.location.href = "./index.html";
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
     }
 }
 function topBoardInicioOnclick() {
