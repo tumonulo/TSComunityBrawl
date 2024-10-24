@@ -1,22 +1,26 @@
-// Escuchar mensajes del iframe
-window.addEventListener('message', function(event) {
-    if (event.origin === window.location.origin) { // Verificar el origen
-        switch (event.data) {
-            case 'communityBrawl':
-                topBoardTsComunityBrawlOnclick();
-                break;
-            case 'inicio':
-                topBoardInicioOnclick();
-                break;
-            case 'discord':
-                topBoardDiscordOnclick();
-                break;
-            // Agrega más casos según sea necesario
+window.addEventListener("message", event => {
+    if (event.origin === window.location.origin) {
+        if (event.data === "topBoardTsComunityBrawlOnclick") {
+            topBoardTsComunityBrawlOnclick();
+        } else if (event.data === "topBoardInicioOnclick") {
+            topBoardInicioOnclick();
+        } else if (event.data === "topBoardDiscordOnclick") {
+            topBoardDiscordOnclick();
+        } else if (event.data === "topBoardClubesOnclick") {
+            topBoardClubesOnclick();
+        } else if (event.data === "topBoardEquipoCompetitivoOnclick") {
+            topBoardEquipoCompetitivoOnclick();
+        } else if (event.data === "topBoardValoracionesOnclick") {
+            topBoardValoracionesOnclick();
+        } else if (event.data === "topBoardRedesSocialesOnclick") {
+            topBoardRedesSocialesOnclick();
+        } else if (event.data === "topBoardSoporteOnclick") {
+            topBoardSoporteOnclick();
+        } else if (event.data === "topBoardSobreNosotrosOnclick") {
+            topBoardSobreNosotrosOnclick();
         }
     }
 });
-
-
 
 
 //TOPBOARD
