@@ -18,4 +18,9 @@
         </div>
     </div>
 </body>
+<script>
+    function sendMessage(action) {
+        window.parent.postMessage(action, window.location.origin);
+    }
+</script>
 </html>

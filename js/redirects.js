@@ -31,7 +31,7 @@ function topBoardTsComunityBrawlOnclick() {
     }
 }
 function topBoardInicioOnclick() {
-    const middleBoardInicio = window.getElementById('middleBoardInicio');
+    const middleBoardInicio = document.getElementById('middleBoardInicio');
     middleBoardInicio.scrollIntoView({ behavior: 'smooth' });
 }
 function topBoardDiscordOnclick() {
