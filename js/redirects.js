@@ -30,10 +30,16 @@ function topBoardTsComunityBrawlOnclick() {
     }
 }
 function topBoardInicioOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardInicio = document.getElementById('middleBoardInicio');
     middleBoardInicio.scrollIntoView({ behavior: 'smooth' });
 }
 function topBoardDiscordOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardDiscord = document.getElementById('middleBoardDiscord');
     const middleBoardDiscordPosition = middleBoardDiscord.getBoundingClientRect().top;
     const middleBoardDiscordPositionToScroll = window.scrollY + middleBoardDiscordPosition - 150;
@@ -43,6 +49,9 @@ function topBoardDiscordOnclick() {
     });
 }
 function topBoardClubesOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardClubes = document.getElementById('middleBoardClubes');
     const middleBoardClubesPosition = middleBoardClubes.getBoundingClientRect().top;
     const middleBoardClubesPositionToScroll = window.scrollY + middleBoardClubesPosition - 88;
@@ -52,6 +61,9 @@ function topBoardClubesOnclick() {
     });
 }
 function topBoardEquipoCompetitivoOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardEquipoCompetitivo = document.getElementById('middleBoardEquipoCompetitivo');
     const middleBoardEquipoCompetitivoPosition = middleBoardEquipoCompetitivo.getBoundingClientRect().top;
     const middleBoardEquipoCompetitivoPositionToScroll = window.scrollY + middleBoardEquipoCompetitivoPosition - 88;
@@ -61,6 +73,9 @@ function topBoardEquipoCompetitivoOnclick() {
     });
 }
 function topBoardValoracionesOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardValoraciones = document.getElementById('middleBoardValoraciones');
     const middleBoardValoracionesPosition = middleBoardValoraciones.getBoundingClientRect().top;
     const middleBoardValoracionesPositionToScroll = window.scrollY + middleBoardValoracionesPosition - 88;
@@ -70,6 +85,9 @@ function topBoardValoracionesOnclick() {
     });
 }
 function topBoardRedesSocialesOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardRedesSociales = document.getElementById('middleBoardRedesSociales');
     const middleBoardRedesSocialesPosition = middleBoardRedesSociales.getBoundingClientRect().top;
     const middleBoardRedesSocialesPositionToScroll = window.scrollY + middleBoardRedesSocialesPosition - 88;
@@ -79,6 +97,9 @@ function topBoardRedesSocialesOnclick() {
     });
 }
 function topBoardSoporteOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardSoporte = document.getElementById('middleBoardSoporte');
     const middleBoardSoportePosition = middleBoardSoporte.getBoundingClientRect().top;
     const middleBoardSoportePositionToScroll = window.scrollY + middleBoardSoportePosition - 88;
@@ -88,6 +109,9 @@ function topBoardSoporteOnclick() {
     });
 }
 function topBoardSobreNosotrosOnclick() {
+    if (window.location.href != "https://tumonulo.github.io/TSComunityBrawl/") {
+        window.location.href = "https://tumonulo.github.io/TSComunityBrawl/";
+    }
     const middleBoardSobreNosotros = document.getElementById('middleBoardSobreNosotros');
     const middleBoardSobreNosotrosPosition = middleBoardSobreNosotros.getBoundingClientRect().top;
     const middleBoardSobreNosotrosPositionToScroll = window.scrollY + middleBoardSobreNosotrosPosition - 88;
