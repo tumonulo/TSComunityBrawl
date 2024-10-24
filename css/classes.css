@@ -9,6 +9,7 @@ body{
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-size: 40px;
     /*ANADIR FONT*/
 }
 .text{
