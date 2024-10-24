@@ -146,6 +146,7 @@
     width: 650px;
     height: 300px; 
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,7 +156,8 @@
     width: 1000px;
     height: 270px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -177,7 +179,7 @@
     width: 450px;
     height: 250px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
@@ -199,6 +201,7 @@
     width: 650px;
     height: 300px; 
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
