@@ -180,7 +180,7 @@
     height: 250px;
     display: flex;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 140px;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -200,7 +200,7 @@
 #middleBoardClubes-0{
     width: 650px;
     height: 300px; 
-    margin-top: 70px;
+    margin-top: 140px;
     margin-bottom: 70px;
     display: flex;
     flex-direction: column;
